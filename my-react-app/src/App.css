@@ -5,6 +5,10 @@
   --page-color: #FDF0D5; /* Papaya whip*/
 }
 
+body {
+  background-color: var(--page-color);
+}
+
 .App {
   text-align: center;
 }
