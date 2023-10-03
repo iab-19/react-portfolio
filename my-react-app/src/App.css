@@ -1,3 +1,10 @@
+:root {
+  --primary-color: #D65108; /* Syracuse Red Orange */
+  --secondary-color: #3F220F; /* Bistre*/
+  --alternate-color: #4E4187; /* Ultra Violet*/
+  --page-color: #FDF0D5; /* Papaya whip*/
+}
+
 .App {
   text-align: center;
 }
