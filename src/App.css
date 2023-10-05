@@ -7,7 +7,35 @@
 
 body {
   background-color: var(--page-color);
+  color: var(--alternate-color);
 }
+
+/* navbar */
+.nav {
+  border: 1px solid black;
+  background-color: var(--secondary-color);
+  display: flex;
+  flex-direction: column;
+  padding: 10px
+}
+
+.nav a {
+  color: var(--primary-color);
+  text-decoration: none;
+
+}
+
+.nav li {
+  list-style-type: none;
+
+}
+/* ------------------------------------------------------- */
+/* portfolio picture */
+#ib {
+  width: 300px;
+  max-width: max-content;
+}
+
 
 .App {
   text-align: center;
