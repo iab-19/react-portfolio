@@ -8,7 +8,7 @@ import Resume from './pages/Resume';
 
 
 function Content() {
-    const [currentPage, setCurrentPage] = useState('About');
+    const [currentPage, setCurrentPage] = useState('Contact');
 
 
     const renderPage = () => {

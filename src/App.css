@@ -29,14 +29,38 @@ body {
   list-style-type: none;
 
 }
+
+#ib-h1 {
+  color: var(--page-color)
+}
 /* ------------------------------------------------------- */
 /* portfolio picture */
 #ib {
-  width: 300px;
+  width: 200px;
+  /* height: 200px; */
   max-width: max-content;
+  /* border-radius: 50%; */
 }
 
 
+
+/* ------------------------------------------------------ */
+/* Contact Form */
+#contactForm {
+  padding: 15px;
+  /* border: 10px solid black; */
+  color: black;
+}
+
+#message {
+  width: 300px;
+  height: 200px;
+}
+
+#submitButton {
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+}
 .App {
   text-align: center;
 }
