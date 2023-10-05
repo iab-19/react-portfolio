@@ -10,7 +10,7 @@ export default function Contact() {
                 <label for="email">Email Address:</label><br />
                 <input type='email'></input><br />
                 <label for="message">Message</label><br />
-                <input type='text' id="message"></input><br /> <br />
+                <textarea type='text' id="message" rows="5" cols="40"></textarea><br /> <br />
                 <input type='submit' value="Submit" id='submitButton'></input>
             </form>
 
