@@ -60,6 +60,22 @@ body {
   color: var(--secondary-color);
   background-color: var(--primary-color);
 }
+
+
+/* -------------------------------------- */
+/* Icon */
+#githubIcon {
+  background-image: url('./assets/GitHub-Logos/GitHub_Logo.png');
+  /* background: url('./assets/ib.jpg'); */
+  /* background-size: 50px; */
+  /* background-position: center; */
+  height: 40px;
+  width: 60px;
+  display: block;
+  color: white;
+  /* border: 10px solid black; */
+}
+
 .App {
   text-align: center;
 }

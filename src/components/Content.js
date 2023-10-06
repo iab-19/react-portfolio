@@ -8,24 +8,25 @@ import Resume from '../pages/Resume';
 
 
 function Content() {
-    const [currentPage, setCurrentPage] = useState('About');
+    const [currentPage, setCurrentPage] = useState('Contact');
 
 
     const renderPage = () => {
-        switch(currentPage) {
-            //  change to if else statement
-            case 'Contact':
-                return <Contact />;
-                // break;
-            case 'Portfolio':
-                return <Portfolio />;
-                // break;
-            case 'Resume':
-                return <Resume />;
-                // break;
-            default:
-                return <About />
+        if (currentPage === 'About') {
+            return <About />;
         }
+        if (currentPage === 'Contact') {
+            return <Contact />;
+        }
+        if (currentPage === 'Portfolio') {
+            return <Portfolio />;
+        }
+        if (currentPage === 'Resume') {
+            return <Resume />;
+        }
+
+        // return <Contact />
+
     };
 
 
