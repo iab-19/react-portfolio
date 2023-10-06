@@ -6,6 +6,7 @@
 }
 
 body {
+  margin: 0;
   background-color: var(--page-color);
   color: var(--alternate-color);
 }
@@ -74,6 +75,22 @@ body {
   display: block;
   color: white;
   /* border: 10px solid black; */
+}
+/* ------------------------------------------------------ */
+/* Portfolio */
+.portfolio div {
+  border: 2px solid white;
+  margin: 10px;
+  padding: 10px;
+}
+
+.portfolio-image {
+  width: 90%;
+}
+
+.portfolio-image :hover {
+  background-color: white;
+  cursor: pointer;
 }
 
 .App {
