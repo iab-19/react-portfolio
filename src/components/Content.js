@@ -1,18 +1,19 @@
 import React, { useState } from 'react';
 import NavTabs from './NavTabs';
-import About from './pages/About';
-import Contact from './pages/Contact';
-import Portfolio from './pages/Portfolio';
-import Resume from './pages/Resume';
+import About from '../pages/About';
+import Contact from '../pages/Contact';
+import Portfolio from '../pages/Portfolio';
+import Resume from '../pages/Resume';
 
 
 
 function Content() {
-    const [currentPage, setCurrentPage] = useState('Contact');
+    const [currentPage, setCurrentPage] = useState('About');
 
 
     const renderPage = () => {
         switch(currentPage) {
+            //  change to if else statement
             case 'Contact':
                 return <Contact />;
                 // break;
