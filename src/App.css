@@ -13,8 +13,8 @@ body {
   height: 100%;
 }
 
-/* navbar */
-.nav {
+/* header */
+header {
   border: 1px solid black;
   background-color: var(--secondary-color);
   display: flex;
@@ -22,20 +22,27 @@ body {
   padding: 10px
 }
 
-.nav a {
+header a {
   color: var(--primary-color);
   text-decoration: none;
+  font-size: 30px;
 
 }
 
-.nav li {
+header li {
   list-style-type: none;
 
 }
 
 #ib-h1 {
-  color: var(--page-color)
+  color: var(--page-color);
+  font-size: 40px;
 }
+
+.active {
+  color: var(--alternate-color)
+}
+
 /* ------------------------------------------------------- */
 /* portfolio picture */
 #ib {
