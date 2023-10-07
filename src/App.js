@@ -1,7 +1,12 @@
-import logo from './logo.svg';
 import React from 'react';
+// import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import logo from './logo.svg';
 import Content from './components/Content';
 import './App.css';
+
+// import Header from './components/Header';
+import Footer from './components/Footer';
+
 
 // function App() {
 //   return (
@@ -24,6 +29,14 @@ import './App.css';
 //   );
 // }
 
-const App = () => <Content />
+const App = () => {
+    return (
+    <section>
+        <Content />
+        <Footer />
+    </section>
+    )
+}
+
 
 export default App;

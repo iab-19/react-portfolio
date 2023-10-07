@@ -7,8 +7,10 @@
 
 body {
   margin: 0;
+  padding: 0;
   background-color: var(--page-color);
   color: var(--alternate-color);
+  height: 100%;
 }
 
 /* navbar */
@@ -91,6 +93,29 @@ body {
 .portfolio-image :hover {
   background-color: white;
   cursor: pointer;
+}
+
+/* ------------------------------------------------------ */
+/* Footer */
+footer {
+  background-color: var(--alternate-color);
+  color: white;
+  /* padding: 10px; */
+  text-align: center;
+  /* box-shadow: 0 50vh 0 50vh; */
+}
+
+footer a {
+  padding: 10px;
+}
+
+#githubIconWhite {
+  width: 30px;
+  /* position: fixed; */
+}
+
+#linkedinIcon {
+  width: 100px;
 }
 
 .App {
