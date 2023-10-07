@@ -5,19 +5,26 @@ import kanye from '../assets/Portfolio-images/kanye.png';
 import readme from '../assets/Portfolio-images/readme.png';
 import svg from '../assets/logo.svg';
 import employee from '../assets/Portfolio-images/employee.png';
+import githubIcon from '../assets/github-mark/github-mark.png';
 
 export default function Portfolio() {
     return (
         <section className='portfolio'>
             <h1>Portfolio</h1>
             <p>Here are the projects I have completed</p>
-            <div>
+            <div className='project'>
                 <p>Odd Quote Out: Kanye Edition</p>
+                <div>
+                    <img src={githubIcon} className='github-icon'></img>
+                </div>
                 <a href='https://iab-19.github.io/odd_quote_out_kanye_edition/'><img src={kanye} alt='Odd Quote Out' className='portfolio-image'></img></a>
             </div>
 
-            <div>
+            <div className='project'>
                 <p>SVG Logo Generator</p>
+                <div>
+                    <img src={githubIcon} className='github-icon'></img>
+                </div>
                 <a href='#'><img src={svg} alt='SVG Generator' className='portfolio-image'></img></a>
             </div>
 

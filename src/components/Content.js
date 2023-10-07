@@ -11,7 +11,7 @@ import Footer from './Footer';
 
 
 function Content() {
-    const [currentPage, setCurrentPage] = useState('Contact');
+    const [currentPage, setCurrentPage] = useState('Resume');
 
 
     const renderPage = () => {

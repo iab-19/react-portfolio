@@ -1,8 +1,21 @@
 :root {
-  --primary-color: #D65108; /* Syracuse Red Orange */
+  --primary-color: #F06543; /* Tomato */
+  /* --primary-color: #D65108; Syracuse Red Orange */
   --secondary-color: #3F220F; /* Bistre*/
-  --alternate-color: #4E4187; /* Ultra Violet*/
-  --page-color: #FDF0D5; /* Papaya whip*/
+  --alternate-color: #820263; /*Byzantium */
+  /* --alternate-color: #690375; Purple */
+  /* --alternate-color: #63C132; Kelly green */
+  /* --alternate-color: #4E4187; Ultra Violet */
+  --page-color: #FDF0D5; /*Papaya whip*/
+}
+
+html, body, #root, main {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -71,6 +84,12 @@ header li {
   background-color: var(--primary-color);
 }
 
+#submitButton :hover {
+  cursor: not-allowed;
+  color: white;
+  background-color: yellow;
+}
+
 
 /* -------------------------------------- */
 /* Icon */
@@ -102,6 +121,30 @@ header li {
   cursor: pointer;
 }
 
+.github-icon {
+  display: none;
+}
+
+.project:hover .github-icon{
+  display: block;
+}
+
+/* ------------------------------------------------------ */
+/* Resume */
+#resume {
+  font-size: medium;
+  border: none;
+  background-color: transparent;
+  color: var(--primary-color);
+}
+
+.resume-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 30px;
+}
+
 /* ------------------------------------------------------ */
 /* Footer */
 footer {
@@ -110,11 +153,19 @@ footer {
   /* padding: 10px; */
   text-align: center;
   /* box-shadow: 0 50vh 0 50vh; */
+  margin-top: auto;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-footer a {
+/* >: direct child of footer */
+footer >div {
   padding: 10px;
 }
+
+
 
 #githubIconWhite {
   width: 30px;
@@ -139,6 +190,10 @@ footer a {
     animation: App-logo-spin infinite 20s linear;
   }
 }
+
+/* h1, h2, h3, h4, h5, h6 {
+  color: var(--secondary-color)
+} */
 
 .App-header {
   background-color: #282c34;

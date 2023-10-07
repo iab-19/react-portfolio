@@ -6,16 +6,12 @@ const Footer = () => {
     return (
         <footer className="">
             <div>
-
-                <h4>
-                    {' '}
-                    <a href="https://github.com/iab-19">
-                        <img src={githubIcon} id="githubIconWhite" alt="GitHub"></img>
-                    </a>{' '}
-                    <a href="https://www.linkedin.com/in/ibrahima-alpha-barry/">
-                        <img src={linkedinIcon} id="linkedinIcon" alt="LinkedIn"></img>
-                    </a>{' '}
-                </h4>
+                <a href="https://github.com/iab-19">
+                    <img src={githubIcon} id="githubIconWhite" alt="GitHub"></img>
+                </a>{' '}
+                <a href="https://www.linkedin.com/in/ibrahima-alpha-barry/">
+                    <img src={linkedinIcon} id="linkedinIcon" alt="LinkedIn"></img>
+                </a>
             </div>
         </footer>
     );
