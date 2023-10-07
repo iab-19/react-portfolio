@@ -11,7 +11,7 @@ import Footer from './Footer';
 
 
 function Content() {
-    const [currentPage, setCurrentPage] = useState('About');
+    const [currentPage, setCurrentPage] = useState('Contact');
 
 
     const renderPage = () => {
@@ -36,11 +36,11 @@ function Content() {
     const handlePageChange = (page) => setCurrentPage(page);
 
     return (
-        <body>
+        <main>
             <Header currentPage={currentPage} handlePageChange={handlePageChange} />
             {renderPage()}
             <Footer />
-        </body>
+        </main>
     );
 }
 

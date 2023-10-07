@@ -3,7 +3,7 @@ import github from '../assets/GitHub-Logos/GitHub_Logo.png';
 
 export default function Contact() {
     return (
-        <div>
+        <section className='contact'>
             <h1>Contact</h1>
             <form id='contactForm'>
                 <label for="name">Name:</label><br />
@@ -14,10 +14,6 @@ export default function Contact() {
                 <textarea type='text' id="message" rows="5" cols="40"></textarea><br /> <br />
                 <input type='submit' value="Submit" id='submitButton'></input>
             </form>
-            <a href='https://github.com/iab-19'><img src={github} alt='github' id='githubIcon'></img></a>
-
-            {/* <span id="githubIcon"></span><br /> */}
-            <i>LinkedIn</i>
-        </div>
+        </section>
     )
 }
