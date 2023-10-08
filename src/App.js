@@ -30,9 +30,9 @@ import Footer from './components/Footer';
 
 const App = () => {
     return (
-    <body>
+    <section>
         <Content />
-    </body>
+    </section>
     )
 }
 
