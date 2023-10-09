@@ -15,6 +15,9 @@ function Content() {
 
 
     const renderPage = () => {
+        if (currentPage === 'Resume') {
+            return <Resume />;
+        }
         if (currentPage === 'About') {
             return <About />;
         }
@@ -23,9 +26,6 @@ function Content() {
         }
         if (currentPage === 'Portfolio') {
             return <Portfolio />;
-        }
-        if (currentPage === 'Resume') {
-            return <Resume />;
         }
 
         // return <Contact />

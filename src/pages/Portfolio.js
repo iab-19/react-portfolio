@@ -14,38 +14,50 @@ export default function Portfolio() {
             <p>Here are the projects I have completed</p>
             <div className='project'>
                 <p>Odd Quote Out: Kanye Edition</p>
-                <div>
-                    <img src={githubIcon} className='github-icon'></img>
-                </div>
                 <a href='https://iab-19.github.io/odd_quote_out_kanye_edition/'><img src={kanye} alt='Odd Quote Out' className='portfolio-image'></img></a>
+                <div>
+                    <a href='https://github.com/iab-19/odd_quote_out_kanye_edition'><img src={githubIcon} className='github-icon' alt="github link"></img></a>
+                </div>
             </div>
 
             <div className='project'>
                 <p>SVG Logo Generator</p>
+                <img src={svg} alt='SVG Generator' className='portfolio-image'></img>
                 <div>
-                    <img src={githubIcon} className='github-icon'></img>
+                    <a href='https://github.com/iab-19/svg-logo-maker'><img src={githubIcon} className='github-icon' alt="github link"></img></a>
                 </div>
-                <a href='#'><img src={svg} alt='SVG Generator' className='portfolio-image'></img></a>
             </div>
 
-            <div>
+            <div className='project'>
                 <p>Professional README Generator</p>
-                <a href='#'><img src={readme} alt='readme generator' className='portfolio-image'></img></a>
+                <img src={readme} alt='readme generator' className='portfolio-image'></img>
+                <div>
+                    <a href='https://github.com/iab-19/professional-readme-generator'><img src={githubIcon} className='github-icon' alt="github link"></img></a>
+                </div>
             </div>
 
-            <div>
+            <div className='project'>
                 <p>Employee Tracker</p>
-                <a href='#'><img src={employee} alt='Employee Tracker' className='portfolio-image'></img></a>
+                <img src={employee} alt='Employee Tracker' className='portfolio-image'></img>
+                <div>
+                    <a href='https://github.com/iab-19/employee-tracker'><img src={githubIcon} className='github-icon' alt="github link"></img></a>
+                </div>
             </div>
 
-            <div>
+            <div className='project'>
                 <p>Weather Dashboard</p>
                 <a href='https://iab-19.github.io/weather_dashboard/'><img src={weather} alt='Weather Dashboard' className='portfolio-image'></img></a>
+                <div>
+                    <a href='https://github.com/iab-19/weather_dashboard'><img src={githubIcon} className='github-icon' alt="github link"></img></a>
+                </div>
             </div>
 
-            <div>
+            <div className='project'>
                 <p>Workday Scheduler</p>
                 <a href='https://iab-19.github.io/work-day-scheduler/'><img src={scheduler} alt='Workday Scheduler' className='portfolio-image'></img></a>
+                <div>
+                    <a href='https://github.com/iab-19/work-day-scheduler'><img src={githubIcon} className='github-icon' alt="github link"></img></a>
+                </div>
             </div>
 
 
