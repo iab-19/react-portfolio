@@ -57,7 +57,7 @@ header li {
 }
 
 /* ------------------------------------------------------- */
-/* portfolio picture */
+/* About */
 #ib {
   width: 200px;
   /* height: 200px; */
@@ -65,7 +65,22 @@ header li {
   /* border-radius: 50%; */
 }
 
+.interest-img {
+  width: 300px;
+  height: 200px;
+}
 
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.carousel-container {
+  max-width: 350px;
+  /* height: 200px; */
+}
 
 /* ------------------------------------------------------ */
 /* Contact Form */
@@ -133,6 +148,8 @@ header li {
   position: relative;
 }
 
+
+
 /* ------------------------------------------------------ */
 /* Resume */
 #resume {
@@ -154,9 +171,7 @@ header li {
 footer {
   background-color: var(--alternate-color);
   color: white;
-  /* padding: 10px; */
   text-align: center;
-  /* box-shadow: 0 50vh 0 50vh; */
   margin-top: auto;
   height: 60px;
   display: flex;
@@ -180,6 +195,8 @@ footer >div {
   width: 100px;
 }
 
+
+/* ---------------------------------------- */
 .App {
   text-align: center;
 }
