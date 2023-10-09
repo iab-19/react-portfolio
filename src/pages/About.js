@@ -54,7 +54,7 @@ export default function About() {
             <p>Born in New Jersey and raised in Gambia, I took an interest in everything technology. From disassembling Playstations
                 to see what they look like on the inside to swapping out RAM to get a faster laptop
             </p>
-            <p>Due to my love for Physics and Math, I moved to the UK to Attend College and University, where I obtained about
+            <p>Due to my love for Physics and Math, I moved to the UK to Attend College and University, where I obtained
                 a degree in Electronic Engineering from the University Of Essex.
             </p>
             <h4>Hobbies & Interests</h4>
