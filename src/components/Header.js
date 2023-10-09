@@ -4,7 +4,7 @@ import React from 'react';
 function Header({ currentPage, handlePageChange}) {
     return (
         <header>
-            <h1 id='ib-h1'>Ibrahima</h1>
+            <h1 id='ib-h1'>Ibrahima Barry</h1>
             <ul className='nav nav-tabs'>
                 <li className='nav-item'>
                     <a
