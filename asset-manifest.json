@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.5b9f44a5.css",
+    "main.js": "/react-portfolio/static/js/main.6e03bfa9.js",
+    "static/media/butterfly-nebula.jpg": "/react-portfolio/static/media/butterfly-nebula.6e94a79e7d536a86a7f0.jpg",
+    "static/media/spider.jpg": "/react-portfolio/static/media/spider.a97e28c4d489f09099fa.jpg",
+    "static/media/readme.png": "/react-portfolio/static/media/readme.5521be8a2f6177442e75.png",
+    "static/media/blackest-night.jpg": "/react-portfolio/static/media/blackest-night.d0b810d54144fcbf5b6a.jpg",
+    "static/media/employee.png": "/react-portfolio/static/media/employee.1c35b6b1c68977e04677.png",
+    "static/media/ib.jpg": "/react-portfolio/static/media/ib.d1b8b6ec909fc6f0c0cb.jpg",
+    "static/media/naruto-vol1.jpg": "/react-portfolio/static/media/naruto-vol1.436d1d4b4ad3aa61f159.jpg",
+    "static/media/kanye.png": "/react-portfolio/static/media/kanye.c4a778f06eb9e4bf38f8.png",
+    "static/media/iab.pdf": "/react-portfolio/static/media/iab.c11269f590afee537630.pdf",
+    "static/media/weather.png": "/react-portfolio/static/media/weather.d1f75e54aad0e32ccab0.png",
+    "static/media/workday.png": "/react-portfolio/static/media/workday.cb52672f13811b1d2acc.png",
+    "static/media/real-board.jpg": "/react-portfolio/static/media/real-board.7305888ee338a6bc017a.jpg",
+    "static/media/LI-Logo.png": "/react-portfolio/static/media/LI-Logo.a95afc06831647f5fca2.png",
+    "static/media/GitHub_Logo.png": "/react-portfolio/static/media/GitHub_Logo.746ec8f0bc97208f903e.png",
+    "index.html": "/react-portfolio/index.html",
+    "static/media/logo.svg": "/react-portfolio/static/media/logo.e93780d141d366ab074f523c49ae8bd3.svg",
+    "main.5b9f44a5.css.map": "/react-portfolio/static/css/main.5b9f44a5.css.map",
+    "main.6e03bfa9.js.map": "/react-portfolio/static/js/main.6e03bfa9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5b9f44a5.css",
+    "static/js/main.6e03bfa9.js"
+  ]
+}
