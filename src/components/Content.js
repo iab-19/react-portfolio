@@ -11,21 +11,32 @@ import Footer from './Footer';
 
 
 function Content() {
-    const [currentPage, setCurrentPage] = useState('Resume');
+    const [currentPage, setCurrentPage] = useState('About');
 
 
     const renderPage = () => {
-        if (currentPage === 'Resume') {
-            return <Resume />;
-        }
-        if (currentPage === 'About') {
-            return <About />;
-        }
-        if (currentPage === 'Contact') {
-            return <Contact />;
-        }
-        if (currentPage === 'Portfolio') {
-            return <Portfolio />;
+        // if (currentPage === 'Resume') {
+        //     return <Resume />;
+        // }
+        // if (currentPage === 'About') {
+        //     return <About />;
+        // }
+        // if (currentPage === 'Contact') {
+        //     return <Contact />;
+        // }
+        // if (currentPage === 'Portfolio') {
+        //     return <Portfolio />;
+        // }
+
+        switch(currentPage) {
+            case 'Resume':
+                return <Resume />;
+            case 'About':
+                return <About />;
+            case 'Contact':
+                return <Contact />;
+            default:
+                return <Portfolio />;
         }
 
         // return <Contact />
