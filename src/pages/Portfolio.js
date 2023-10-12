@@ -13,8 +13,8 @@ export default function Portfolio() {
             <h1>Portfolio</h1>
             <p>Here are the projects I have completed</p>
             <div className='project'>
-                <p>Odd Quote Out: Kanye Edition</p>
-                <a href='https://iab-19.github.io/odd_quote_out_kanye_edition/'><img src={kanye} alt='Odd Quote Out' className='portfolio-image'></img></a>
+            <a href='https://iab-19.github.io/odd_quote_out_kanye_edition/'><p>Odd Quote Out: Kanye Edition</p></a>
+                <img src={kanye} alt='Odd Quote Out' className='portfolio-image'></img>
                 <div>
                     <a href='https://github.com/iab-19/odd_quote_out_kanye_edition'><img src={githubIcon} className='github-icon' alt="github link"></img></a>
                 </div>
@@ -45,16 +45,16 @@ export default function Portfolio() {
             </div>
 
             <div className='project'>
-                <p>Weather Dashboard</p>
-                <a href='https://iab-19.github.io/weather_dashboard/'><img src={weather} alt='Weather Dashboard' className='portfolio-image'></img></a>
+            <a href='https://iab-19.github.io/weather_dashboard/'><p>Weather Dashboard</p></a>
+                <img src={weather} alt='Weather Dashboard' className='portfolio-image'></img>
                 <div>
                     <a href='https://github.com/iab-19/weather_dashboard'><img src={githubIcon} className='github-icon' alt="github link"></img></a>
                 </div>
             </div>
 
             <div className='project'>
-                <p>Workday Scheduler</p>
-                <a href='https://iab-19.github.io/work-day-scheduler/'><img src={scheduler} alt='Workday Scheduler' className='portfolio-image'></img></a>
+            <a href='https://iab-19.github.io/work-day-scheduler/'><p>Workday Scheduler</p></a>
+                <img src={scheduler} alt='Workday Scheduler' className='portfolio-image'></img>
                 <div>
                     <a href='https://github.com/iab-19/work-day-scheduler'><img src={githubIcon} className='github-icon' alt="github link"></img></a>
                 </div>
