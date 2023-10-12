@@ -25,7 +25,7 @@
 
 
   ## Installation
-  Navigate to the url: (add url of deployed site here)
+  Navigate to the url: https://iab-19.github.io/react-portfolio/
 
   <!-- What are they steps required to install your project? Provide a step-by-step description of how to get the development environment running. -->
 
@@ -54,12 +54,12 @@
   industry standard, but you can always write your own.-->
 
   ## Tests
-  tbd
+  Click all of the links on the page and they work
 
   <!-- Go the extra mile and write tests for your application. Then provide examples on how to run them here. -->
 
   ## Questions
   A link to my [GitHub Profile](https://www.github.com/iab-19)
 
-  If you have any questions, please reach out to me via email: iab.jr10:gmail.com.
+  If you have any questions, please reach out to me via email: iab.jr10gmail.com.
 
