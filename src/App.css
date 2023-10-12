@@ -312,6 +312,18 @@ footer >div {
     width: 500px;
   }
 
+
+  /* Portfolio page */
+  .row {
+    display: flex;
+    justify-content: space-between;
+    /* width: 50%; */
+  }
+
+  .project {
+    width: 45%;
+  }
+
 }
 
 
