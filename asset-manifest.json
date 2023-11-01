@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.a4331d0f.css",
-    "main.js": "/react-portfolio/static/js/main.08fd321e.js",
+    "main.js": "/react-portfolio/static/js/main.81884431.js",
     "static/media/butterfly-nebula.jpg": "/react-portfolio/static/media/butterfly-nebula.6e94a79e7d536a86a7f0.jpg",
+    "static/media/uFree.png": "/react-portfolio/static/media/uFree.06913d2006d00597532c.png",
     "static/media/readme.png": "/react-portfolio/static/media/readme.234959ece1bac212724d.png",
     "static/media/blackest-night.jpg": "/react-portfolio/static/media/blackest-night.d0b810d54144fcbf5b6a.jpg",
     "static/media/employee.png": "/react-portfolio/static/media/employee.1c35b6b1c68977e04677.png",
@@ -18,10 +19,10 @@
     "index.html": "/react-portfolio/index.html",
     "static/media/logo.svg": "/react-portfolio/static/media/logo.e93780d141d366ab074f523c49ae8bd3.svg",
     "main.a4331d0f.css.map": "/react-portfolio/static/css/main.a4331d0f.css.map",
-    "main.08fd321e.js.map": "/react-portfolio/static/js/main.08fd321e.js.map"
+    "main.81884431.js.map": "/react-portfolio/static/js/main.81884431.js.map"
   },
   "entrypoints": [
     "static/css/main.a4331d0f.css",
-    "static/js/main.08fd321e.js"
+    "static/js/main.81884431.js"
   ]
 }
