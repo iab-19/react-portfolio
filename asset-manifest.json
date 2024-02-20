@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.a4331d0f.css",
-    "main.js": "/react-portfolio/static/js/main.709d0a6e.js",
+    "main.js": "/react-portfolio/static/js/main.97a9243c.js",
     "static/media/butterfly-nebula.jpg": "/react-portfolio/static/media/butterfly-nebula.6e94a79e7d536a86a7f0.jpg",
     "static/media/uFree.png": "/react-portfolio/static/media/uFree.06913d2006d00597532c.png",
     "static/media/readme.png": "/react-portfolio/static/media/readme.234959ece1bac212724d.png",
@@ -10,8 +10,8 @@
     "static/media/ib.jpg": "/react-portfolio/static/media/ib.d1b8b6ec909fc6f0c0cb.jpg",
     "static/media/naruto-vol1.jpg": "/react-portfolio/static/media/naruto-vol1.436d1d4b4ad3aa61f159.jpg",
     "static/media/kanye.png": "/react-portfolio/static/media/kanye.c4a778f06eb9e4bf38f8.png",
-    "static/media/iab.pdf": "/react-portfolio/static/media/iab.c11269f590afee537630.pdf",
     "static/media/weather.png": "/react-portfolio/static/media/weather.d1f75e54aad0e32ccab0.png",
+    "static/media/Ibrahima_Barry_Resume.pdf": "/react-portfolio/static/media/Ibrahima_Barry_Resume.eb3282fc8a82fd2e2a9c.pdf",
     "static/media/workday.png": "/react-portfolio/static/media/workday.cb52672f13811b1d2acc.png",
     "static/media/sk8.jpg": "/react-portfolio/static/media/sk8.708dd899f1c32fee301a.jpg",
     "static/media/LI-Logo.png": "/react-portfolio/static/media/LI-Logo.a95afc06831647f5fca2.png",
@@ -19,10 +19,10 @@
     "index.html": "/react-portfolio/index.html",
     "static/media/logo.svg": "/react-portfolio/static/media/logo.e93780d141d366ab074f523c49ae8bd3.svg",
     "main.a4331d0f.css.map": "/react-portfolio/static/css/main.a4331d0f.css.map",
-    "main.709d0a6e.js.map": "/react-portfolio/static/js/main.709d0a6e.js.map"
+    "main.97a9243c.js.map": "/react-portfolio/static/js/main.97a9243c.js.map"
   },
   "entrypoints": [
     "static/css/main.a4331d0f.css",
-    "static/js/main.709d0a6e.js"
+    "static/js/main.97a9243c.js"
   ]
 }
