@@ -1,6 +1,6 @@
 import React, { useState} from "react";
 // import pdf from '../assets/Ibrahima_Barry_Resume.pdf';
-import resumePdf from '../assets/iab.pdf'
+import resumePdf from '../assets/Ibrahima_Barry_Resume.pdf'
 
 function Resume() {
     const [showPdf, setShowPdf] = useState(false);
